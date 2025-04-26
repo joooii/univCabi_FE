@@ -1,50 +1,84 @@
-# React + TypeScript + Vite
+(logo) - 초안 작성해보고 본 프로젝트에 옮기기
+# UnivCabi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 목차
+- [📝 프로젝트 소개](#프로젝트-소개)
+- [🛠️ 기술 스택](#기술-스택)
+- [🌟 주요 기능](#주요-기능)
+- [🧑🏻‍💻 프로젝트 멤버](#프로젝트-멤버)
 
-Currently, two official plugins are available:
+## 프로젝트 소개
+### 목적
+기존 부경대학교 내 사물함은 각 학과에서 SNS를 통해 선착순으로 대여하고, 이를 수기로 관리하고 있습니다. 
+이러한 수기 관리의 불편함을 해소하고자 사물함을 전산화하고, 학생들의 사물함 대여와 반납의 편의성을 위해 사물함 대여 서비스를 개발하였습니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 기대 효과
+- **학과** : 사물함 대여 현황 및 상태를 손쉽게 관리할 수 있어 효율성이 증대됩니다.
+- **학생** : 현재 대여 가능한 사물함 목록을 한 눈에 볼 수 있으며, 클릭 한 번으로 편리하게 사물함 대여 및 반납이 가능합니다.
 
-## Expanding the ESLint configuration
+## 기술 스택
+- ### 프로그래밍 언어
+  - **Front-End**
+    - JavaScript
+    - TypeScript
+   
+  - **Back-End**
+    - Python
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- ### 주요 라이브러리 및 프레임워크
+  - **Front-End**
+    - React
+    - TailwindCSS
+    - Redux
+   
+  - **Back-End**
+    - Django
+    - DRF(Django RestFrameWork)
+    - Spring Framework
 
-- Configure the top-level `parserOptions` property like this:
+- ### 개발 도구 및 환경
+  - **개발 환경**
+    - Apple Silicon M1
+    - Windows 11
+      
+  - **Front-End**
+    - Vite
+    - Node
+   
+  - **Back-End**
+    - VirtualEnv
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+- ### 데이터베이스
+  - Sqlite3
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- ### Infra
+  - Netlify
+  - Docker
+ 
+## 주요 기능
+- **로그인**
 
-```js
-// eslint.config.js
-import react from "eslint-plugin-react";
+- **메인 페이지**
+  - **사물함 대여, 반납 기능** : 이용하고자 하는 사물함을 선택하여, 대여 또는 반납을 할 수 있습니다.
+  - **사물함 즐겨찾기 기능** : 본인이 원하는 사물함을 즐겨찾기에 추가할 수 있습니다.
+  
+- **사용 가능한 사물함 대여 페이지**
+  - **사용 가능한 사물함을 선착순으로 대여하는 기능** : 매일 오후 1시에 본인이 사용 가능한 사물함의 잠금이 해제됩니다.
+  
+- **검색 페이지**
+  - **사물함 검색 기능** : 찾고자 하는 사물함의 번호를 입력하면, 해당 번호가 있는 건물과 층에 대한 결과가 나타납니다.
+  
+- **프로필 페이지**
+  - **프로필 기능** : 본인의 기본 정보와 대여 정보를 확인할 수 있고, 이름 공개 여부를 선택할 수 있습니다.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: "18.3" } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs["jsx-runtime"].rules,
-  },
-});
-```
+- **히스토리 페이지**
+  - **사물함 대여, 반납에 대한 히스토리 기능** : 본인이 대여, 반납한 사물함의 히스토리를 확인할 수 있습니다.
+  - **히스토리 선택 시 해당 사물함 정보로 이동 기능** : 각 히스토리를 선택하면, 해당 사물함의 위치로 이동할 수 있습니다.
+
+- **관리자 페이지**
+  - **통계**
+    - 건물별 사물함 사용 현황
+    - 연체, 고장 사물함 리스트
+  - **사물함 상태 관리 (사용 가능, 사용 불가, 반납, 대여 처리)**
+ 
+## 프로젝트 멤버
