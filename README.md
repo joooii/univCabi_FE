@@ -2,12 +2,14 @@
 # UnivCabi
 
 ## 목차
-- [📝 프로젝트 소개](#프로젝트-소개)
+- [📝 프로젝트 소개](#intro)
 - [🛠️ 기술 스택](#기술-스택)
+- [화면 구성](#화면-구성)
 - [🌟 주요 기능](#주요-기능)
 - [🧑🏻‍💻 프로젝트 멤버](#프로젝트-멤버)
 
 ## 프로젝트 소개
+## <span id="intro">프로젝트 소개</span>
 ### 목적
 기존 부경대학교 내 사물함은 각 학과에서 SNS를 통해 선착순으로 대여하고, 이를 수기로 관리하고 있습니다. 
 이러한 수기 관리의 불편함을 해소하고자 사물함을 전산화하고, 학생들의 사물함 대여와 반납의 편의성을 위해 사물함 대여 서비스를 개발하였습니다.
@@ -16,45 +18,17 @@
 - **학과** : 사물함 대여 현황 및 상태를 손쉽게 관리할 수 있어 효율성이 증대됩니다.
 - **학생** : 현재 대여 가능한 사물함 목록을 한 눈에 볼 수 있으며, 클릭 한 번으로 편리하게 사물함 대여 및 반납이 가능합니다.
 
-## 기술 스택
-- ### 프로그래밍 언어
-  - **Front-End**
-    - JavaScript
-    - TypeScript
-   
-  - **Back-End**
-    - Python
+## 🛠️ 기술 스택
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+<img src="https://img.shields.io/badge/tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"> <img src="https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"> 
+<img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white"> <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/sqlite3-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
+<img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white">
+<img src="https://img.shields.io/badge/netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"> <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
-- ### 주요 라이브러리 및 프레임워크
-  - **Front-End**
-    - React
-    - TailwindCSS
-    - Redux
-   
-  - **Back-End**
-    - Django
-    - DRF(Django RestFrameWork)
-    - Spring Framework
+## 화면 구성
 
-- ### 개발 도구 및 환경
-  - **개발 환경**
-    - Apple Silicon M1
-    - Windows 11
-      
-  - **Front-End**
-    - Vite
-    - Node
-   
-  - **Back-End**
-    - VirtualEnv
-
-- ### 데이터베이스
-  - Sqlite3
-
-- ### Infra
-  - Netlify
-  - Docker
- 
 ## 주요 기능
 - **로그인**
 
