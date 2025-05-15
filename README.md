@@ -1,6 +1,8 @@
-(logo) - 초안 작성해보고 본 프로젝트에 옮기기
 
 # UnivCabi
+<p align="center">
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/2734e40d-6ada-4aec-982d-9ed8a27dfc46" />
+</p>
 
 ## 목차
 - [📝 프로젝트 소개](#introduction)
@@ -81,10 +83,11 @@
   
 - **검색 페이지**
   - **사물함 검색 기능** : 찾고자 하는 사물함의 번호를 입력하면, 해당 번호가 있는 건물과 층에 대한 결과가 나타납니다.
-  
+  ![2025-05-1515 47 57-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/596a8ced-e38e-4245-8712-ddfe04c960b8)
+
 - **프로필 페이지**
   - **프로필 기능** : 본인의 기본 정보와 대여 정보를 확인할 수 있고, 이름 공개 여부를 선택할 수 있습니다.
-        ![화면 기록 2025-05-04 19 00 33](https://github.com/user-attachments/assets/e1e1619a-f044-44e3-a007-f226e484f403)
+![2025-05-1515 51 05-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/4aee89d7-fe82-4e0b-bdd7-58eec76ce06b)
 
 - **히스토리 페이지**
   - **사물함 대여, 반납에 대한 히스토리 기능** : 본인이 대여, 반납한 사물함의 히스토리를 확인할 수 있습니다.
@@ -99,8 +102,10 @@
 ![2025-05-0616 24 47-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/451f2188-caba-4e06-844e-2b4ce9de4247)
 
 
-- **사물함 상태 관리 (사용 가능, 사용 불가, 반납, 대여 처리)** : 각 사물함의 상태를 관리할 수 있습니다. '복수 선택 기능'을 사용하면 한 번에 여러 사물함의 상태를 변경할 수 있습니다. 
- 
+- **사물함 상태 관리 (사용 가능, 사용 불가, 반납, 대여 처리)** : 각 사물함의 상태를 관리할 수 있습니다. '복수 선택 기능'을 사용하면 한 번에 여러 사물함의 상태를 변경할 수 있습니다.
+
+  ![2025-05-1515 57 03-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/cde2c0d5-f460-4b56-a58b-500b2d4cecd7)
+
 ## <span id="member">🧑🏻‍💻 프로젝트 멤버</span>
 
 | 이름 | 역할 |
