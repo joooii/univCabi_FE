@@ -102,7 +102,7 @@
 ![2025-05-0616 24 47-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/451f2188-caba-4e06-844e-2b4ce9de4247)
 
 
-- **사물함 상태 관리 (사용 가능, 사용 불가, 반납, 대여 처리)** : 각 사물함의 상태를 관리할 수 있습니다. '복수 선택 기능'을 사용하면 한 번에 여러 사물함의 상태를 변경할 수 있습니다.
+- **사물함 상태 관리 (사용 가능, 사용 불가, 반납, 대여 처리)** : 각 사물함의 상태를 관리할 수 있습니다. '복수 선택 기능'을 사용하면 한 번에 여러 사물함의 상태를 변경(사용 가능, 사용 불가)할 수 있습니다.
 
   ![2025-05-1515 57 03-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/cde2c0d5-f460-4b56-a58b-500b2d4cecd7)
 
